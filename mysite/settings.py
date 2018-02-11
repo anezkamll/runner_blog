@@ -25,7 +25,7 @@ SECRET_KEY = 'ga0*-8!e_@s(v&$=c+rlduj55+pbc!2u1!t#sl!h43h=gd*%u3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [anezkamll.pythonanywhere.com]
+ALLOWED_HOSTS = ['anezkamll.pythonanywhere.com']
 
 
 # Application definition
