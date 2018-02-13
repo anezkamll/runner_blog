@@ -8,21 +8,13 @@
         </div>
 
         <div>
-            <p>published: 3.2.2018, 15:14</p>
-            <h2><a href="">Výběh 3.2., 10 týdnů do půlmaratonu</a></h2>
-            <p>Poprvé po nemoci výběh ven.
-            Svítí slunko, ale je zima.
-            Běželo se dobře, udýchala jsem to v pohodě, ale kolem potoka mě začlo bolet koleno a cestou zpět i druhé. Na schodech na lávku už to bolelo fakt hodně, víc, než když se to ozvalo poprvé po běhu na zledovatělé stezce.
-            Blbý...</p>
-        </div>
-
-        <div>
-            <p>published: 8.2.2018, 21:14</p>
-            <h2><a href="">Elliptical 8.2., delší intervalový trénink</a></h2>
-            <p>Venku je hnusně, takže dnešní trénink byl na ellipticalu.
-            Zkouším intervalový, 2km easy, 1km fast, 1km easy, 1km fast, 1km easy, 1km fast, 2km easy.
-            Easy je kolem 8.5 - 9km/h, fast kolem 10km/h se zvýšenou zátěží.
-            Baví mě to, zařadím častěji.</p>
+            {% for post in posts %}
+                <div>
+                    <p>published: {{ post.published_date }}</p>
+                    <h1><a href="">{{ post.title }}</a></h1>
+                    <p>{{ post.text|linebreaksbr }}</p>
+                </div>
+            {% endfor %}
         </div>
     </body>
 </html>
