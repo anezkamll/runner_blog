@@ -16,12 +16,12 @@
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Comfortaa', cursive;
 }
 
 .date {
     color: #828282;
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Comfortaa', cursive;
 }
 
 .save {
@@ -50,5 +50,5 @@ h1, h2, h3, h4 {
 .text {
     margin-top: 20px;
     font-size: 12pt;
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Comfortaa', cursive;
 }
