@@ -41,6 +41,7 @@ h1, h2, h3, h4 {
 
 .post {
     margin-bottom: 50px;
+    font-family: 'Comfortaa', cursive;
 }
 
 .post h1 a, .post h1 a:visited {
